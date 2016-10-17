@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+    width: 1	0%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-color: white;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+div {
+    border-radius: 10px;
+    background-image: url("http://www.dnp.go.th/watershed/planing/images/background-0.png");
+    padding: 10px;
+}
+</style>
+<body>
+
+<center><h3>Be part of this Program</h3></center>
+
+<div>
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname"><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname"><br>
+
+    <label for="country">State</label><br>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="philipines">Philippines</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
